@@ -1,5 +1,3 @@
-"use strict";
-
 const form = document.querySelector(".login-form");
 
 const handleFormFilling = (event) => {
@@ -10,6 +8,7 @@ const handleFormFilling = (event) => {
 
 	if (email.value === "" || password.value === "") {
 		alert("Усі поля форми повинні бути заповнені");
+		return;
 	}
 
 	const formSubmitInfo = {

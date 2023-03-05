@@ -1,5 +1,3 @@
-"use strict";
-
 const inputedName = document.querySelector("#name-input");
 const outputedName = document.querySelector("#name-output");
 
